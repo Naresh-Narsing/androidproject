@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#000000"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageview1"
+        android:src="@drawable/messi"
+        android:padding="10dp"
+        android:background="#000000"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:id="@+id/goalstv"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:text="Goals"
+        android:gravity="center"
+        android:background="#000000"
+        android:layout_toRightOf="@+id/teamtv"
+        android:layout_toEndOf="@+id/teamtv" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:id="@+id/teamtv"
+        android:layout_toRightOf="@+id/imageview1"
+        android:text="Team"
+        android:background="#000000"
+        android:gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"
+        android:layout_below="@id/imageview1"/>
+
+</RelativeLayout>
