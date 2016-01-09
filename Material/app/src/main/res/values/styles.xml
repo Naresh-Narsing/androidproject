@@ -9,9 +9,10 @@
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryDark">@color/primaryColorDark</item>
         <item name="@android:colorAccent">@color/accentColor</item>
-        <!--<item name="@android:navigationBarColor">@color/navigationColor</item>-->
+        <item name="@android:navigationBarColor">@color/navigationColor</item>
+        <item name="@android:windowTranslucentStatus">true</item>
     </style>
-    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar"></style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar"></style>
 
     <style name="MyCustomToolBarTheme" parent="ThemeOverlay.AppCompat.Light">
         <item name="android:textColorPrimary">#F00</item>

@@ -3,5 +3,5 @@
     <color name="primaryColor">#FFEB3B</color>
     <color name="primaryColorDark">#FBC02D</color>
     <color name="accentColor">#50514F</color>
-    <!--<color name="navigationColor">#F44336</color>-->
+    <color name="navigationColor">#F00</color>
 </resources>

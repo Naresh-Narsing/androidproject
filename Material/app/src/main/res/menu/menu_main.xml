@@ -12,6 +12,7 @@
         android:title="@string/next"
         android:orderInCategory="200"
         android:icon="@drawable/ic_next"
-        android:showAsAction="always"/>
+        app:showAsAction="always"
+        android:actionLayout="@layout/activity_nextactivity1"/>
 
 </menu>
