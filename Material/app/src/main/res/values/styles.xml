@@ -11,6 +11,7 @@
         <item name="@android:colorAccent">@color/accentColor</item>
         <item name="@android:navigationBarColor">@color/navigationColor</item>
         <item name="@android:windowTranslucentStatus">true</item>
+        <item name="android:colorControlHighlight">@color/colorHighLight</item>
     </style>
     <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar"></style>
 

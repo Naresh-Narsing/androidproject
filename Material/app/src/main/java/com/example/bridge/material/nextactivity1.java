@@ -3,6 +3,8 @@ package com.example.bridge.material;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 
 public class nextactivity1 extends ActionBarActivity {
 
@@ -15,6 +17,8 @@ public class nextactivity1 extends ActionBarActivity {
 
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
     }
 
 }

@@ -5,6 +5,7 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/primaryColor"
+  android:paddingTop="@dimen/app_bar_top_padding"
     app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
     app:theme="@style/MyCustomToolBarTheme">
 

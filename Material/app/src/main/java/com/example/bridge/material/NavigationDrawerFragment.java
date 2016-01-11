@@ -120,6 +120,9 @@ public class NavigationDrawerFragment extends Fragment {
         });
     }
 
+
+
+
     public static void saveToPreferences(Context context, String preferenceName, String preferenceValue) {
         SharedPreferences sharedPreferences = context.getSharedPreferences(PREF_FILE_NAME, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();

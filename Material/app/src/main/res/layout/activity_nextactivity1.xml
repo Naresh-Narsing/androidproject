@@ -3,16 +3,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    tools:context="com.example.bridge.material.nextactivity1">
+    android:fitsSystemWindows="true"
+    tools:context="com.example.bridge.material.nextactivity1"
+    >
 
     <include
         layout="@layout/app_bar"
         android:id="@+id/app_bar"/>
-    <TextView
+    <EditText
         android:layout_below="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="Hello"/>
+        android:hint="Enter Your Name"
+        android:id="@+id/edit1"
+        android:paddingLeft="7dp"
+        android:background="@drawable/editcustom"
+        android:drawableLeft="@drawable/ic_number1"
+       />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edit2"
+        android:paddingLeft="7dp"
+        android:drawableLeft="@drawable/ic_number2"
+        android:layout_below="@+id/edit1"
+        android:hint="Enter Your LastName"
+        android:background="@drawable/custom2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email_ID"
+        android:paddingLeft="7dp"
+        android:layout_below="@+id/edit2"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edit3"
+        android:background="@drawable/custom3"
+        android:drawableLeft="@drawable/ic_number3"/>
+
+
 </RelativeLayout>
